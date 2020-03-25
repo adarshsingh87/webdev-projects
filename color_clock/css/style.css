@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Shade&display=swap');
+html,body{
+  height: 100%;
+}
+#clock{
+  color: whitesmoke;
+  font-family: 'Bungee Shade', cursive;
+  font-size: 200px;
+  position: relative;
+  top: 50%;
+  margin-top: -100px;
+  text-align: center;
+}

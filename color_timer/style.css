@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Shade&display=swap');
+html,
+body {
+  height: 100%;
+}
+#hmm {
+  color: whitesmoke;
+  font-family: 'Bungee Shade', cursive;
+  font-size: 200px;
+  position: relative;
+  top: 50%;
+  margin-top: -100px;
+  text-align: center;
+  z-index: 1;
+}
+#from {
+  font-size: 36px;
+  background-color: #121212;
+  color: whitesmoke;
+  z-index: 20;
+  height: 100%;
+}
+#inside {
+  top: 50%;
+  text-align: center;
+  position: relative;
+  margin-top: -18px;
+}
+#a {
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+#b {
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+#c {
+  padding-top: 10px;
+  margin-right: -15px;
+  margin-bottom: 10px;
+}
+#hh {
+  position: relative;
+  text-align: center;
+  padding: 10px 10px;
+}
+#end {
+  text-align: center;
+}
