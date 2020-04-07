@@ -4,24 +4,6 @@ body{
 .container{
 	margin-top: 50px;
 }
-.btn-git{
-	color: #211F1F;
-}
-.btn-li{
-	color: #0082ca;
-}
-.fa-facebook-f{
-	color: #3b5998;
-}
-.fa-twitter{
-	color: #1da1f2;
-}
-.fa-instagram{
-	color: #e1306c;
-}
-.fa{
-	color: #555;
-}
 .badge-dark{
 	background-color: #6C63FF;
 	cursor: default;
