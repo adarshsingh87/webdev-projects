@@ -1,0 +1,55 @@
+html{
+	height: 100%;
+}
+body {
+	min-height: 100%;
+	background: #ccd0d4;
+	align-content: center;
+}
+h1 {
+	padding-top: 20%;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Nunito', sans-serif;
+	font-size: 6.6875em;
+	color: transparent;
+	letter-spacing: 0.01em;
+}
+@media (max-width: 768px){
+	h1{
+		font-size: 60px;
+	}
+}
+@keyframes loading {
+	to {
+		text-shadow: 0 0 2px rgba(204, 208, 212, 0.2), 0 0 3px rgba(0, 0, 0, 0.02),
+			0 0 0 rgba(0, 0, 0, 0), 0 0 0 rgba(255, 255, 255, 0),
+			0 0 0 rgba(0, 0, 0, 0), 0 0 0 rgba(255, 255, 255, 0),
+			0 0 0 rgba(255, 255, 255, 0);
+	}
+}
+span {
+	text-shadow: 0 0 2px rgba(204, 208, 212, 0.9), 0 15px 25px rgba(0, 0, 0, 0.3),
+		0 -2px 3px rgba(0, 0, 0, 0.1), 0 -5px 10px rgba(255, 255, 255, 0.5),
+		0 5px 10px rgba(0, 0, 0, 0.3), 0 3px 4px rgba(255, 255, 255, 0.2),
+		0 0 20px rgba(255, 255, 255, 0.45);
+	animation: loading 0.85s ease-in-out infinite alternate;
+}
+span:nth-child(2) {
+	animation-delay: 0.15s;
+}
+span:nth-child(3) {
+	animation-delay: 0.3s;
+}
+span:nth-child(4) {
+	animation-delay: 0.45s;
+}
+span:nth-child(5) {
+	animation-delay: 0.6s;
+}
+span:nth-child(6) {
+	animation-delay: 0.75s;
+}
+span:nth-child(7) {
+	animation-delay: 0.9s;
+}
