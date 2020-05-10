@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" id="tp">
+<html lang="en">
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,16 +8,18 @@
 		<title>ToDo List</title>
 	</head>
 	<body>
-		<div class="input-wrapper">
-			<h1>ToDo List</h1>
-			<input
-				type="text"
-				id="input-list"
-				placeholder="Click on event to delete"
-			/>
-			<button onclick="additem()" id="confirm-button">Add</button>
-			<p class="items-section"><strong>Things to Do</strong>:</p>
-			<div id="items"></div>
+		<div  id="tp">
+			<div class="input-wrapper">
+				<h1>ToDo List</h1>
+				<input
+					type="text"
+					id="input-list"
+					placeholder="Click on event to delete"
+				/>
+				<button onclick="additem()" id="confirm-button">Add</button>
+				<p class="items-section"><strong>Things to Do</strong>:</p>
+				<div id="items"></div>
+			</div>
 		</div>
 		<script src="scripts/particles.js"></script>
 		<script src="scripts/app.js"></script>
