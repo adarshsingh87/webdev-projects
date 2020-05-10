@@ -1,45 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <title>Title</title>
-  </head>
-  <body>
-    <div id="from">
-      <form action="" name="timer" id="inside">
-        <strong>Enter hour: </strong
-        ><input type="text" name="hour" id="a" /><br />
-        <strong>Enter mins: </strong
-        ><input type="text" name="min" id="b" /><br />
-        <strong>Enter secs: </strong
-        ><input type="text" name="sec" id="c" /><br />
-        <input
-          value="Start the timer"
-          type="button"
-          class="btn btn-success"
-          id="hh"
-          onclick="start_timer(this.form.hour.value,this.form.min.value,this.form.sec.value)"
-        />
-      </form>
-    </div>
-    <div id="hmm"></div>
-    <div id="end"></div>
-    <audio src="Alarm.mp3" id="alarm" loop></audio>
-    <script src="script.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  </body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+		/>
+		<link rel="stylesheet" href="style.css" />
+		<title>Timer</title>
+	</head>
+	<body>
+		<div id="from">
+			<form action="" name="timer" id="inside">
+				<strong>Enter hour: </strong
+				><input type="text" name="hour" id="a" /><br />
+				<strong>Enter mins: </strong
+				><input type="text" name="min" id="b" /><br />
+				<strong>Enter secs: </strong
+				><input type="text" name="sec" id="c" /><br />
+				<input
+					value="Start the timer"
+					type="button"
+					class="btn btn-success"
+					id="hh"
+					onclick="start_timer(this.form.hour.value,this.form.min.value,this.form.sec.value)"
+				/>
+			</form>
+		</div>
+		<div id="hmm"></div>
+		<div id="end"></div>
+		<audio src="Alarm.mp3" id="alarm" loop></audio>
+		<script src="script.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</body>
 </html>
 <!--                 /"\
                     |\./|

@@ -29,15 +29,18 @@ body {
 #a {
   padding-top: 10px;
   margin-bottom: 10px;
+  background: transparent;
 }
 #b {
   padding-top: 10px;
   margin-bottom: 10px;
+  background: transparent;
 }
 #c {
   padding-top: 10px;
   margin-right: -15px;
   margin-bottom: 10px;
+  background: transparent;
 }
 #hh {
   position: relative;
